@@ -86,7 +86,7 @@ public class SizeEncoder implements SteganographyEncoder {
             out.append(tagOpen);
             out.append(c);
             out.append(tagClose);
-            curr = found - 1;
+            curr = found + 1;
         }
 
         if (curr < base.length()) {
